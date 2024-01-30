@@ -7,7 +7,6 @@ import login from '../../assets/logos/login.png';
 
 function Navbar () {
 
-
     return (
         <div className='Navbar'>
             <div className='left-container'>

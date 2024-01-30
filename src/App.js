@@ -3,6 +3,7 @@ import Home from './pages/home/Home.jsx';
 import Search from './pages/search/Search.jsx';
 import Login from './pages/login/Login.jsx';
 import Navbar from './components/navbar/Navbar.jsx';
+/*import Footer from './components/footer/Footer.jsx';*/
 import './App.css';
 
 
