@@ -7,13 +7,15 @@
 }
 
 .Home-content {
-    height: 90%;
+    height: 100%;
     width: 45%;
+    background-color: var(--darker-color-background);
     background-size:cover;
     background-position:center;
     z-index: -100;
-    position: absolute;
-    background-color: blue;
+    position: fixed;
+    left: 25%;
+    top : 0;
 }
 
 .Home-header h2 {

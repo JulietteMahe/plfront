@@ -13,6 +13,14 @@
   --text-font-second: 'Roboto Mono', monospace;
 };
 
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--darker-color-background);
+}
+
 body {
   font-family: Helvetica, sans-serif, var(--text-font-second);
 }

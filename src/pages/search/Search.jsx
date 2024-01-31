@@ -9,7 +9,31 @@ function Search () {
 
   return (
     <div className="Search">
-        <div className="Search-bar">
+        <div className="Search-bar">          
+          <div className = "category">
+            <div className = "subtitle">Genre</div>
+            <GenreButtonList />
+          </div>
+          <div className = "category">
+            <div className = "subtitle">Genre</div>
+            <GenreButtonList />
+          </div>
+          <div className = "category">
+            <div className = "subtitle">Genre</div>
+            <GenreButtonList />
+          </div>
+          <div className = "category">
+            <div className = "subtitle">Genre</div>
+            <GenreButtonList />
+          </div>
+          <div className = "category">
+            <div className = "subtitle">Genre</div>
+            <GenreButtonList />
+          </div>
+          <div className = "category">
+            <div className = "subtitle">Genre</div>
+            <GenreButtonList />
+          </div>
           <div className = "category">
             <div className = "subtitle">Genre</div>
             <GenreButtonList />
@@ -26,7 +50,7 @@ function Search () {
             <div className = "subtitle">Lieux</div>
             <PlacesButtonList />
           </div> 
-       
+          
         </div>
         <div className="Search-content">
           <div className="Search-main-title"></div>
